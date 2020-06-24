@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+span {
+  font-size: 15px;
+}
+
+.main-header {
+  height: 80px;
+  background: #242424;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 25px;
+}
+
+.logo {
+  font-size: x-large;
+  color: rgb(252, 215, 8);
+  margin-left: 75px;
+}
+
+.desktop-menu {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.dropdown {
+  display: none;
+  color: rgb(252, 215, 8);
+}
+
+.mobile-menu {
+  display: none;
+  color: rgb(252, 215, 8);
+}
+
+@media(max-width: 768px){
+  .main-header img {
+    height: 50px;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .dropdown {
+    display: initial;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    display: initial;
+    height: 250px;
+    width: 250px;
+    background: #3B3B3B;
+    position: fixed;
+    top: 125px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width: 500px){
+  .main-header img {
+    height: 35px;
+  }
+
+  .react-logo {
+    height: 250px;
+  }
+
+  .transition-circle {
+    height: 200px;
+    width: 200px;
+  }
+}
