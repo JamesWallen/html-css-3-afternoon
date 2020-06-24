@@ -27,6 +27,7 @@ span {
   display: flex;
   justify-content: space-between;
   color: white;
+  margin-right: 75px;
 }
 
 .dropdown {
@@ -58,9 +59,9 @@ span {
     display: initial;
     height: 250px;
     width: 250px;
-    background: #3B3B3B;
+    background: #242424;
     position: fixed;
-    top: 125px;
+    top: 80px;
     right: 0px;
     display: flex;
     flex-direction: column;
